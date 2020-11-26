@@ -1,0 +1,81 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    background-color: #F1F6FF;
+}
+.Top
+{
+    background-color: #1676FF;
+    text-align: right;
+    height: 70px;
+}
+li a 
+{
+    display: block;
+    width: 200px;
+    height: 55px;
+    margin-left: 20px;
+}
+.Imge{
+    position: absolute;
+    left: 80.9%;
+    right: 2.43%;
+    top: 13px;
+    bottom: 17.14%;
+
+}
+.Img-N{
+    position: absolute;
+    width: 18.97px;
+    height: 22px;
+    right: 23%;
+    top: 24px;
+
+}
+
+.nav-text
+{
+    color: #7D86A9;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 17px;
+}
+.nav-text-main
+{
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #202020;
+    margin-left: 17px;  
+}
+a img
+{
+    margin-top: -4px;
+}
+.rectangle
+{
+    position: absolute;
+    width: 100%;
+    height: 887px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.1);
+}
+.nav-item
+{
+    z-index: 1;
+}
+.nav-1
+{
+    margin-top: 40px;
+}
