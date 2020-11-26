@@ -33,7 +33,15 @@ li a
     top: 24px;
 
 }
+.Img-line{
+    position: absolute;
+    right: 26.5%;
 
+}
+.Img-line-2{
+    position: absolute;
+    right: 20.8%;
+}
 .nav-text
 {
     color: #7D86A9;
@@ -78,4 +86,24 @@ a img
 .nav-1
 {
     margin-top: 40px;
+}
+.Icon{
+    position: absolute;
+    width: 27px;
+    height: 25px;
+    left: 4.2%;
+    top: 44px;
+}
+.Al-Text{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    font-size: 35px;
+    left: 8.5%;
+    top: 31px;
+}
+.Al-Text-2{
+    position: absolute;
+    font-size: 14px;
+    left: 4.2%;
+    top: 78px;
 }
