@@ -1,6 +1,12 @@
 /*<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">*/
 /*inicia dashbaord*/
 
+body
+{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    background-color: #F1F6FF;
+}
 #negritas{
     font-family: 'Roboto', sans-serif;
   font-style: normal;
