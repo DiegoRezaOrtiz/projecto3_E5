@@ -75,7 +75,6 @@ a img
     height: 887px;
     left: 0px;
     top: 0px;
-    
     background: #FFFFFF;
     box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.1);
 }
@@ -97,13 +96,60 @@ a img
 .Al-Text{
     font-family: 'Roboto', sans-serif;
     position: absolute;
+    color: #202020;
     font-size: 35px;
     left: 8.5%;
     top: 31px;
 }
 .Al-Text-2{
     position: absolute;
+    color: #7D86A9;
     font-size: 14px;
     left: 4.2%;
     top: 78px;
+}
+.Btn{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 18px;
+    right: 3.5%;
+    border-radius: 20px;
+    top: 33px;
+    padding-left: 49.67px;
+    padding-right: 28.33px;
+    padding-bottom: 10px;
+    padding-top: 9px;
+}
+.Org{
+    position: absolute;
+    top: 16.5px;
+    left: 20%;
+}
+.Icono{
+    position: absolute;
+    left: 85%;    
+}
+#Text-1{
+    position: absolute;
+    background-color: #FFFFFF;
+    color: #7D86A9;
+    padding-left: 10px;
+    padding-right: 28px;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    font-size: 10px;
+    left: 4%;
+    top: 31.5%;
+}
+#Text-2{
+    position: absolute;
+    background-color: #FFFFFF;
+    color: #7D86A9;
+    padding-left: 10px;
+    padding-right: 28px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    font-size: 16px;
+    left: 20.5%;
+    top: 31.5%;
 }
