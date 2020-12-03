@@ -14,18 +14,24 @@
     <div class="banner">
         <div class="row">
             <div class="col-sm-12">
-                <img src="banner-images\notification.svg" alt="notifications">
-                <img src="banner-images\pic.svg" alt="profile picture">
+                <div class="line line1"></div>
+                <img src="banner-images\notification.svg" class="notif" alt="notifications">
+                <div class="line line2"></div>
+                <img src="banner-images\pic.svg" class="pfp" alt="profile picture">
+                <span class="pfp pfpname">Karima Abd El-Hamid</span>
+                <span class="pfp pfprole">Admin</span>
+                <a class="btn btn-primary arrow-toggle" href="#"
+                role="button">▼</a>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-sm-2">
             <nav>
-                <div class="rectangle"></div>
-                <ul class="nav">
+                <ul class="nav navbar">
                     <li class ="nav-item nav-1">
-                        <a href="dashboard.html"><img src="navbar-icons\download-business-statistics-symbol-of-a-graphic.svg" 
+                        <a href="dashboard.html">
+                            <img src="navbar-icons\download-business-statistics-symbol-of-a-graphic.svg" 
                             class="nav-icon-db" alt="icon"><span class="nav-text">Dashboard</span></a>
                     </li>
                     <li class ="nav-item">
@@ -55,6 +61,92 @@
                 </ul>
             </nav>
         </div>
+        <div class="col-sm-10">
+            <div class="container-fluid">
+                <button class="btn-lg btn1 btn btn-warning rounded-pill">
+                    <img src="body-icons\button-icons\add.svg" alt=""> Add team</button>
+                <button class="btn-lg btn2 btn btn-warning rounded-pill">
+                    <img src="body-icons\button-icons\organize.svg" alt=""> Organize</button>
+                <h1 id="title"><img src="body-icons\teams-icon.svg" alt="icon"><span class="text">Teams</span></h1>
+                <p id="subtitle">Keep track of the teams you've created</p>
+                <div class="row">
+                    <span class="tab" id="active-tab">Manage access groups</span>
+                    <span class="tab" id="inactive-tab">Manage team members</span>
+                    <span class="count">viewing 1 to 4 of 4</span>
+                    <HR class="divider" align="left" width="100%" color="#DDDDDD" noshade>
+                    <HR class="highlight" width="175px" color="#1676FF" noshade>
+                </div>
+                <div class="row">
+                    <div class="secondpart">
+                        <input type="search" id="titlesearch" placeholder="Title">
+                        <select class="selectpicker" id="count">
+                            <option>Count</option>
+                        </select>
+                        <select class="selectpicker" id="affiliates">
+                            <option>Affiliates</option>
+                        </select>
+                        <select class="selectpicker" id="applications">
+                            <option>Applications</option>
+                        </select>
+                        <select class="selectpicker" id="services">
+                            <option>Services</option>
+                        </select>
+                        <input type="checkbox" checked><span id="status">
+                            <img id="statusimg" src="body-icons\green.svg" alt="active"> Active</span>
+                        <input type="checkbox" checked><span id="status">
+                            <img id="statusimg" src="body-icons\red.svg" alt="inactive"> Inactive</span>
+                        <button class="btn-lg btn3 btn btn-warning rounded-pill" type="submit" value="submit">
+                            <img src="body-icons\button-icons\export.svg" alt="export"> Export</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container-fluid">
+                    <table style="width:100%">
+                        <tr>
+                            <th>ID</th><th>icon</td><th>Title</td><th>Count</td><th>Affiliates</td>
+                            <th>Applications</td><th>Services</td><th>Status</td><th>Actions</td>
+                        </tr>
+                        <tr>
+                            <td class="topleft">21331</td><td><img src="body-icons\table icons\Oval 1.svg" alt="icon">
+                            </td><td>Content editor</td><td>321</td><td>VF DE, T-mobile</td><td>Glam+ VF.., T-mobi..</td>
+                            <td>Subscription</td><td><img id="statusimg" src="body-icons\green.svg" alt="active"> Active</td>
+                            <td class="topright"><img src="body-icons\table icons\team.svg" alt="team">
+                                <img src="body-icons\table icons\edit.svg" alt="edit">
+                                <img src="body-icons\table icons\delete.svg" alt="trash">
+                                <img src="body-icons\table icons\Shape.svg" alt="arrow"></td>
+                        <tr>
+                            <td>33751</td><td><img src="body-icons\table icons\Oval 2.svg" alt="icon">
+                            </td><td>Admins</td><td>321</td><td>VF DE, T-mobile</td><td>Glam+ VF.., T-mobi..</td>
+                            <td>Subscription</td><td><img id="statusimg" src="body-icons\green.svg" alt="active"> Active</td>
+                            <td><img src="body-icons\table icons\team.svg" alt="team">
+                                <img src="body-icons\table icons\edit.svg" alt="edit">
+                                <img src="body-icons\table icons\delete.svg" alt="trash">
+                                <img src="body-icons\table icons\Shape.svg" alt="arrow"></td>
+                        </tr>
+                        <tr>
+                            <td>13731</td><td><img src="body-icons\table icons\Oval 3.svg" alt="icon">
+                            </td><td>Support</td><td>321</td><td>T-mobile</td><td>Glam+ VF</td>
+                            <td>Service</td><td><img id="statusimg" src="body-icons\red.svg" alt="inactive"> Inactive</td>
+                            <td><img src="body-icons\table icons\team.svg" alt="team">
+                                <img src="body-icons\table icons\edit.svg" alt="edit">
+                                <img src="body-icons\table icons\delete.svg" alt="trash">
+                                <img src="body-icons\table icons\Shape.svg" alt="arrow"></td>
+                        </tr>
+                        <tr>
+                            <td>17335</td><td><img src="body-icons\table icons\Oval 4.svg" alt="icon">
+                            </td><td>Content editor</td><td>321</td><td>VF DE, T-mobile</td><td>Glam+ VF.., T-mobi..</td>
+                            <td>Subscription</td><td><img id="statusimg" src="body-icons\green.svg" alt="active"> Active</td>
+                            <td><img src="body-icons\table icons\team.svg" alt="team">
+                                <img src="body-icons\table icons\edit.svg" alt="edit">
+                                <img src="body-icons\table icons\delete.svg" alt="trash">
+                                <img src="body-icons\table icons\Shape.svg" alt="arrow"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
+    
 </body>
 </html>
