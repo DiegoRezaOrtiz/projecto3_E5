@@ -572,3 +572,6 @@ color: #202020;
   border-radius: 0px;
   border: #FFFFFF;
 }
+@media (min-width: 320px) and (max-width: 767px){
+  
+}
