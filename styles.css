@@ -568,6 +568,30 @@ color: #202020;
   padding-top: 36px;
   padding-left: 236px;
 }
+table
+{
+    margin-top: 37px;
+    margin-left: 240px;
+}
+td{
+  font-family: 'Roboto',sans-serif;
+  padding: 15px;
+    margin-top: 37px;
+    margin-left: 240px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DDDDDD
+}
+th
+{
+    padding-bottom: 10px;
+    padding-left: 15px; 
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #7D86A9;
+}
 @media (min-width: 320px) and (max-width: 767px){
   
 }
