@@ -525,8 +525,6 @@ color: #202020;
   color: #7D86A9;
   height: 35px;
   width: 150px;
-  left: 256px;
-  top: 276px;
   border-radius: 0px;
   border: #FFFFFF;
 }
@@ -539,8 +537,6 @@ color: #202020;
   color: #7D86A9;
   height: 35px;
   width: 150px;
-  left: 256px;
-  top: 276px;
   border-radius: 0px;
   border: #FFFFFF;
 }
@@ -553,8 +549,6 @@ color: #202020;
   color: #7D86A9;
   height: 35px;
   width: 150px;
-  left: 256px;
-  top: 276px;
   border-radius: 0px;
   border: #FFFFFF;
 }
@@ -567,10 +561,12 @@ color: #202020;
   color: #7D86A9;
   height: 35px;
   width: 150px;
-  left: 256px;
-  top: 276px;
   border-radius: 0px;
   border: #FFFFFF;
+}
+.secondpart{
+  padding-top: 36px;
+  padding-left: 236px;
 }
 @media (min-width: 320px) and (max-width: 767px){
   
