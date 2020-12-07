@@ -18,6 +18,21 @@ li a{
   font-family: 'Roboto', sans-serif;
   color: black; 
 }
+#loko{
+  padding-top: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: black;   
+  font-size: 17px;
+  line-height: 20px;
+}
+#todas{
+  padding-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: black;   
+  font-size: 17px;
+  line-height: 20px;
+}
 #grande{
     left: 0px;
   }
