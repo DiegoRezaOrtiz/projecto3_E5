@@ -5,6 +5,9 @@
   width: 1440px;
 height: 70px;
 }
+.nav-icon-db {
+  margin-right: 20px;
+}
 li a{
   display: block;
     width: 200px;
