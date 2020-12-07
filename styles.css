@@ -387,4 +387,38 @@ color: #7D86A9;
 #p2{
   padding-top: 17px;
 }
+@media  (max-width: 600px){
+  .encabezado{
+  display: none;
+  }
+  .sintexto
+  {
+    font-size: 0;
+    display: none;
+  }
+  .btn-warning{
+  width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;  
+  }
+ .enmedio1{
+   padding-left: 150px;
+ }
+ .cartass{
+   left: 0px;
+   bottom: 15px;
+ }
+ .cartass2{
+   padding-top: 15px;
+  left: 0px;
+  bottom: 15px;
+}
+.cartass3{
+  padding-top: 15px;
+ left: 0px;
+ bottom: 15px;
+}
+
+}
+
 /*Termina dashbaord*/
