@@ -404,6 +404,8 @@ th
     .rotatedtable
     {
         display: flex;
+        border-collapse: collapse;
+        text-align: center;
     }
     .maintable
     {

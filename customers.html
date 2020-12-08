@@ -13,158 +13,192 @@
 </head>
 
 <body>
-    <div class="encabezado">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 offset-sm-9">
-                    <a href="">
-                        <img src="images/campanita.svg" alt="">
-                    </a>
-                    <a href="">
-                        <img src="images/mujer.svg" alt="">
-                    </a>
-                    <p1>Karima Abd El-Hamid
-                        Admin </p1>
-
-                    <a href="">
-                        <img src="images/felcha_abajo.svg" alt="">
-                    </a>
-                </div>
+    <div class="banner">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="line line1"></div>
+                <img src="banner-images\notification.svg" class="notif" alt="notifications">
+                <div class="line line2"></div>
+                <img src="banner-images\pic.svg" class="pfp" alt="profile picture">
+                <span class="pfp pfpname">Karima Abd El-Hamid</span>
+                <span class="pfp pfprole">Admin</span>
+                <a class="btn btn-primary arrow-toggle" href="#"
+                role="button">▼</a>
             </div>
         </div>
     </div>
-    <div class="menu">
+    <div class="row">
         <div class="col-sm-2">
             <nav>
-                <ul class="nav">
-                    <li id="loko" class="nav-item"><a href="dashboard.html"><img src="images/dashboardgris.svg"
-                                class="nav-icon-db" alt="icon"><span id="negritass"
-                                class="nav-text">Dashboard</span></a>
+                <ul class="nav navbar">
+                    <li class ="nav-item nav-1">
+                        <a href="dashboard.html">
+                            <img src="navbar-icons\download-business-statistics-symbol-of-a-graphic.svg" 
+                            class="nav-icon-db" alt="icon"><span class="nav-text button-text">Dashboard</span></a>
                     </li>
-                    <li id="todas" class="nav-item"><a href="teams.html"><img src="images/teams.svg" class="nav-icon-db"
-                                alt="icon"><span id="gris" class="nav-text-">Teams</span></a></li>
-                    <li id="todas" class="nav-item"><a href="customers.html"><img src="images/customersnegro.svg"
-                                class="nav-icon-db" alt="icon"><span id="griss" class="nav-text-">Customers</span></a>
+                    <li class ="nav-item">
+                        <a href="teams.html"><img src="images/teams.svg" 
+                            class="nav-icon-t" alt="icon"><span class="nav-text button-text">Teams</span></a>
                     </li>
-                    <li id="todas" class="nav-item"><a href="merchants.html"><img src="images/merchants.svg"
-                                class="nav-icon-db" alt="icon"><span id="gris" class="nav-text-">Merchants</span></a>
+                    <li class ="nav-item">
+                        <a href="#"><img src="images/customersnegro.svg" 
+                            class="nav-icon-c" alt="icon"><span class="nav-text-main button-text">Customers</span></a></a>
                     </li>
-                    <li id="todas" class="nav-item"><a href="content.html"><img src="images/content.svg"
-                                class="nav-icon-db" alt="icon"><span id="gris" class="nav-text-">Content</span></a></li>
-                    <li id="todas" class="nav-item"><a href="campaigns.html"><img src="images/campaign.svg"
-                                class="nav-icon-db" alt="icon"><span id="gris" class="nav-text-">Campaigns</span></a>
+                    <li class ="nav-item">
+                        <a href="#"><img src="navbar-icons\factory-stock-house.svg" 
+                            class="nav-icon-m" alt="icon"><span class="nav-text button-text">Merchants</span></a></a>
                     </li>
-                    <li id="todas" class="nav-item"><a href="actionlog.html"><img src="images/action.svg"
-                                class="nav-icon-db" alt="icon"><span id="gris" class="nav-text-">Action Log</span></a>
+                    <li class ="nav-item">
+                        <a href="#"><img src="navbar-icons\column-with-rows-content-layout.svg" 
+                            class="nav-icon-cntnt" alt="icon"><span class="nav-text button-text">Content</span></a>
+                    </li>
+                    <li class ="nav-item">
+                        <a href="#"><img src="navbar-icons\television.svg" 
+                            class="nav-icon-camp" alt="icon"><span class="nav-text button-text">Campaigns</span></a>
+                    </li>
+                    <li class ="nav-item">
+                        <a href="actionlog.html"><img src="navbar-icons\history.svg" 
+                            class="nav-icon-al" alt="icon"><span class="nav-text button-text">Actionlog</span></a>
                     </li>
                 </ul>
             </nav>
         </div>
-    </div>
-
-    <div class="enmedioo">
-        <div id="grande" class="container">
+        <div class="col-sm-10">
+            <div class="container-fluid">
+                <h1 id="title"><img src="images/customerbig.svg" alt="icon"><span class="text">Customers</span></h1>
+                <p id="subtitle">Managing all your customers is now in one place</p>
+                <div class="row">
+                    <span class="tab" id="active-tab">Manage subscribers</span>
+                    <span class="tab" id="inactive-tab">Manage price points</span>
+                    <span class="tab" id="inactive-tab">Send articles</span>
+                    <span class="tab" id="inactive-tab">Vouchers</span>
+                    <span class="count">viewing 1 to 4 of 4</span>
+                    <HR class="divider" align="left" width="100%" color="#DDDDDD" noshade>
+                    <HR class="highlight" width="175px" color="#1676FF" noshade>
+                </div>
+                <div class="row">
+                    <div class="secondpart">
+                        <input type="search" id="titlesearch" placeholder="MSISDN, Email, DSL …">
+                        <select class="selectpicker" id="affiliates">
+                            <option>Affiliates</option>
+                        </select>
+                        <select class="selectpicker" id="applications">
+                            <option>Applications</option>
+                        </select>
+                        <select class="selectpicker" id="services">
+                            <option>Services</option>
+                        </select>
+                        <select class="selectpicker" id="count">
+                            <option>Period</option>
+                        </select>
+                        <button class="btn-lg btn3 btn btn-warning rounded-pill" type="submit" value="submit">
+                            <img src="images/filterr.svg" alt="filter"> <span class="button-text">Filter</span></button>
+                    </div>
+                </div>
+            </div>
             <div class="row">
-                <div class="col-sm-5 offset-sm-2">
-                    <img src="images/customerbig.svg" alt="Presentation" class="Icon"><span
-                        class="Al-Text">Customers</span>
-                    <p>Managing all your customers is now in one place</p>
+                <div class="container-fluid">
+                    <table style="width:100%" class="maintable">
+                        <tr>
+                            <th>Number</th>
+                            <th>User ID</th>
+                            <th>User name</th>
+                            <th>Email</th>
+                            <th>Mission</th>
+                            <th>Affiliates</th>
+                            <th>Created on</th>
+                        </tr>
+                        <tr>
+                            <td class="topleft">123</td>
+                            <td> 3121123</td>
+                            <td>Mohamed Ahmed Nooh</td>
+                            <td>mohamed124@gmail.com</td>
+                            <td>0987654321123</td>
+                            <td>VF DE, T-mobile, VF Cair..</td>
+                            <td>12-12-2012</td>
+                        <tr>
+                        <tr>
+                            <td>123</td>
+                            <td> 3121123</td>
+                            <td>Mohamed Ahmed Nooh</td>
+                            <td>mohamed124@gmail.com</td>
+                            <td>0987654321123</td>
+                            <td>VF DE, T-mobile, VF Cair..</td>
+                            <td>12-12-2012</td>
+                        <tr>
+                        <tr>
+                            <td>123</td>
+                            <td> 3121123</td>
+                            <td>Mohamed Ahmed Nooh</td>
+                            <td>mohamed124@gmail.com</td>
+                            <td>0987654321123</td>
+                            <td>VF DE, T-mobile, VF Cair..</td>
+                            <td>12-12-2012</td>
+                        <tr>
+                        <tr>
+                            <td class="topright">123</td>
+                            <td>3121123</td>
+                            <td>Mohamed Ahmed Nooh</td>
+                            <td>mohamed124@gmail.com</td>
+                            <td>0987654321123</td>
+                            <td>VF DE, T-mobile, VF Cair..</td>
+                            <td>12-12-2012</td>
+                        <tr>
+                    </table>
+                    <table class="rotatedtable" style="width:100%">
+                        <tr>
+                            <th>Number</th>
+                            <td class="topleft">123</td>
+                            <td>123</td>
+                            <td>123</td>
+                            <td class="topright">123</td>
+                        </tr>
+                        <tr>
+                            <th>User ID</th>
+                            <td> 3121123</td>
+                            <td> 3121123</td>
+                            <td> 3121123</td>
+                            <td> 3121123</td>
+                        </tr>
+                        <tr>
+                            <th>User name</th>
+                            <td>Mohamed Ahmed Nooh</td>
+                            <td>Mohamed Ahmed Nooh</td>
+                            <td>Mohamed Ahmed Nooh</td>
+                            <td>Mohamed Ahmed Nooh</td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td>mohamed124@gmail.com</td>
+                            <td>mohamed124@gmail.com</td>
+                            <td>mohamed124@gmail.com</td>
+                            <td>mohamed124@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>Mission</th>
+                            <td>0987654321123</td>
+                            <td>0987654321123</td>
+                            <td>0987654321123</td>
+                            <td>0987654321123</td>
+                        </tr>
+                        <tr>
+                            <th>Affiliates</th>
+                            <td>VF DE, T-mobile, VF Cair..</td>
+                            <td>VF DE, T-mobile, VF Cair..</td>
+                            <td>VF DE, T-mobile, VF Cair..</td>
+                            <td>VF DE, T-mobile, VF Cair..</td>
+                        </tr>
+                        <tr>
+                            <th>Created on</th>
+                            <td>12-12-2012</td>
+                            <td>12-12-2012</td>
+                            <td>12-12-2012</td>
+                            <td>12-12-2012</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div id="lugares" class="row">
-            <div id="subs" class="col-sm2">
-                <p>Manage subscribers</p>
-            </div>
-            <div id="price" class="col-sm-2">
-                <p>Manage price points</p>
-            </div>
-            <div id="send" class="col-sm2">
-                <p>Send articles</p>
-            </div>
-            <div id="vou" class="col-sm-1">
-                <p>Vouchers</p>
-            </div>
-            <div id="view" class="col-sm-2">
-                <p>viewing 1 to 4 of 4</p>
-            </div>
-            <img id="linea" src="images/linea.svg" alt="">
-            <img id="linea2" src="images/linea2.svg" alt="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="secondpart">
-            <input id="count" type="search" placeholder="MSISDN, Email, DSL …">
-            <select class="selectpicker" id="affiliates">
-                <option>Affiliates</option>
-            </select>
-            <select class="selectpicker" id="applications">
-                <option>Applications</option>
-            </select>
-            <select class="selectpicker" id="services">
-                <option>Services</option>
-            </select>
-            <select class="selectpicker" id="services">
-                <option>Period </option>
-            </select>
-            <button id="filterr" class="btn-lg btn3 btn btn-warning rounded-pill" type="submit" value="submit">
-                <img src="images/filterr.svg" alt="filter"> Filter</button>
-        </div>
-        <div class="row">
-            <div class="container-fluid">
-                <table style="width:100%">
-                    <tr id="negritop">
-                        <th>Number</th>
-                        <th>User ID</th>
-                        <th>User name</th>
-                        <th>Email</th>
-                        <th>Mission</th>
-                        <th>Affiliates</th>
-                        <th>Created on</th>
-                    </tr>
-                    <tr>
-                        <td>123</td>
-                        <td> 3121123</td>
-                        <td>Mohamed Ahmed Nooh</td>
-                        <td>mohamed124@gmail.com</td>
-                        <td>0987654321123</td>
-                        <td>VF DE, T-mobile, VF Cair..</td>
-                        <td>12-12-2012</td>
-                    <tr>
-                    <tr>
-                        <td>123</td>
-                        <td> 3121123</td>
-                        <td>Mohamed Ahmed Nooh</td>
-                        <td>mohamed124@gmail.com</td>
-                        <td>0987654321123</td>
-                        <td>VF DE, T-mobile, VF Cair..</td>
-                        <td>12-12-2012</td>
-                    <tr>
-                    <tr>
-                        <td>123</td>
-                        <td> 3121123</td>
-                        <td>Mohamed Ahmed Nooh</td>
-                        <td>mohamed124@gmail.com</td>
-                        <td>0987654321123</td>
-                        <td>VF DE, T-mobile, VF Cair..</td>
-                        <td>12-12-2012</td>
-                    <tr>
-                    <tr>
-                        <td>123</td>
-                        <td> 3121123</td>
-                        <td>Mohamed Ahmed Nooh</td>
-                        <td>mohamed124@gmail.com</td>
-                        <td>0987654321123</td>
-                        <td>VF DE, T-mobile, VF Cair..</td>
-                        <td>12-12-2012</td>
-                    <tr>
-
-                </table>
-            </div>
-        </div>
-
 </body>
-
 </html>

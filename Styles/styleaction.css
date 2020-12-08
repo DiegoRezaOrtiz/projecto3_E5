@@ -4,11 +4,72 @@ body
     overflow-x: hidden;
     background-color: #F1F6FF;
 }
-.Top
+.banner
 {
     background-color: #1676FF;
-    text-align: right;
     height: 70px;
+    width: 100%;
+}
+.line
+{
+    border-left: 1px solid #FFFFFF;
+    height: 70px;
+    position: absolute;
+    opacity: 50%;
+    top: 0;
+}
+.line1
+{
+    left: 73.54%;
+}
+.line2
+{
+    left: 79.1%;
+}
+.notif
+{
+    left: 75.77%;
+    top: 24px;
+    position: absolute;
+}
+.pfp
+{
+    position: absolute;
+    left: 80.9%;
+    top: 12px;
+}
+.pfpname
+{
+    margin-top: 5px;
+    margin-left: 60px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF; 
+}
+.pfprole
+{
+    margin-top: 26px;
+    margin-left: 60px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF; 
+}
+.arrow-toggle
+{
+    font-size: 9px;
+    position: absolute;
+    margin-top: 20px;
+    left: 95%;
 }
 li a 
 {
